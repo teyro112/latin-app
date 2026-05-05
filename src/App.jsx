@@ -7,7 +7,7 @@ import Navigation from './components/Navigation'
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/latin-app">
       <div className="min-h-screen bg-slate-900 text-white">
         <Routes>
           <Route path="/" element={<Home />} />
